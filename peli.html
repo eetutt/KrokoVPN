@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <link rel="stylesheet" href="styles/peli.css" type="text/css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KrokoVPN - VPN Tosi vai Väärin?</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="index.html">Etusivu</a>
+      <a href="ominaisuudet.html">Ominaisuudet</a>
+      <a href="hinnoittelu.html">Hinnoittelu</a>
+      <a href="yhteystiedot.html">Yhteystiedot</a>
+      <a href="peli.html" class="active">Peli</a>
+    </nav>
+
+    <div class="container">
+      <h1>Totta vai Tarua?</h1>
+      <p id="question">Väittämä näytetään täällä...</p>
+
+      <div class="buttons">
+        <button id="trueBtn">Totta</button>
+        <button id="falseBtn">Tarua</button>
+      </div>
+
+      <p id="feedback"></p>
+      <p>Pisteet: <span id="score">0</span></p>
+    </div>
+
+    <script src="peli.js"></script>
+  </body>
+</html>
